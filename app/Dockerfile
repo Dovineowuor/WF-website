@@ -19,6 +19,7 @@ COPY poetry.lock pyproject.toml /app/
 
 # Note: we don't want Poetry to create a virtual environment
 # since it has led to broken builds
+RUN $POETRY_HOME/bin/poetry --version
 RUN $POETRY_HOME/bin/poetry config virtualenvs.create false
 
 # Install Poetry dependencies

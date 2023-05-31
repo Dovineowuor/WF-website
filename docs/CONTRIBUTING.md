@@ -53,9 +53,10 @@ Run database migrations to update the database structure to the latest changes.
 python manage.py migrate
 ```
 
- ### Create a superuser
+### Create a superuser
 
 Create a superuser that will be used to manage website content.
+
 ```sh
 python manage.py createsuperuser
 ```
@@ -68,7 +69,7 @@ Run the local server
 python manage.py runserver
 ```
 
-Once the server is running, you can access it from http://localhost:8000
+Once the server is running, you can access it from <http://localhost:8000>
 
 ### Manage content
 
